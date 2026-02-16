@@ -64,7 +64,7 @@ public class StudentManagementSystem {
         }
     }
 
-    // 1️⃣ Add Student
+    //  Add Student
     static void addStudent() {
         System.out.print("Enter ID: ");
         int id = sc.nextInt();
@@ -84,7 +84,7 @@ public class StudentManagementSystem {
         System.out.println("Student added successfully!");
     }
 
-    // 2️⃣ View Students
+    //  View Students
     static void viewStudents() {
         if (studentList.isEmpty()) {
             System.out.println("No students found.");
@@ -96,7 +96,7 @@ public class StudentManagementSystem {
         }
     }
 
-    // 3️⃣ Update Student
+    //  Update Student
     static void updateStudent() {
         System.out.print("Enter Student ID to update: ");
         int id = sc.nextInt();
@@ -121,7 +121,7 @@ public class StudentManagementSystem {
         System.out.println("Student not found.");
     }
 
-    // 4️⃣ Delete Student
+    //  Delete Student
     static void deleteStudent() {
         System.out.print("Enter Student ID to delete: ");
         int id = sc.nextInt();
